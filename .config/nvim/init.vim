@@ -11,6 +11,7 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
+Plug 'sonph/onehalf', {'rtp': 'vim' }
 Plug 'jreybert/vimagit'
 Plug 'Pocco81/AutoSave.nvim'
 Plug 'lukesmithxyz/vimling'
