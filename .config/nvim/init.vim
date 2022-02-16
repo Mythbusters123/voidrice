@@ -12,11 +12,12 @@ Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
 Plug 'jreybert/vimagit'
+Plug 'Pocco81/AutoSave.nvim'
 Plug 'lukesmithxyz/vimling'
 Plug 'vimwiki/vimwiki'
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
-Plug 'ap/vim-css-color'
+Plug 'gko/vim-coloresque'
 call plug#end()
 
 set title
@@ -149,3 +150,5 @@ function! ToggleHiddenAll()
     endif
 endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
+
+call customvim#MythVim
