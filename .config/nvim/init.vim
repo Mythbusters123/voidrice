@@ -16,6 +16,8 @@ Plug 'jreybert/vimagit'
 Plug 'Pocco81/AutoSave.nvim'
 Plug 'lukesmithxyz/vimling'
 Plug 'vimwiki/vimwiki'
+Plug 'neoclide/coc.nvim'
+Plug 'shougo/neopairs.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 Plug 'gko/vim-coloresque'
@@ -152,4 +154,4 @@ function! ToggleHiddenAll()
 endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>
 
-call customvim#MythVim
+call customvim#MythVim()

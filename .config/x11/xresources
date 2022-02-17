@@ -2,10 +2,13 @@
 /* *.alpha: 0.8 */
 
 !! Set a default font and font size as below:
-*.font: monospace:size=10
+/* *.font: monospace:size=10 */
+
+!! Cursor Size
+Xcursor.size: 24
 
 !! Colors (Bright Breeze)
-*.color0: #31363b 
+*.color0: #31363b
 *.color1: #ed1515
 *.color2: #11d116
 *.color3: #ffe599
@@ -18,7 +21,7 @@
 *.color10: #11d116
 *.color11: #ffd966
 *.color12: #3daee9
-*.color13: #8effad
+*.color13: #8e44ad
 *.color14: #16a085
 *.color15: #fcfcfc
 

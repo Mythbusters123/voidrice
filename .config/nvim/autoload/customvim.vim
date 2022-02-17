@@ -29,9 +29,9 @@ EOF
 
   " Map CTRL+C to <ESC>
   nmap <C-c> <esc>
-  imap <C-c> <esc> 
+  imap <C-c> <esc>
   vmap <C-c> <esc>
-  omap <C-c> <esc> 
+  omap <C-c> <esc>
 
   " Set colors
   if exists('+termguicolors')
