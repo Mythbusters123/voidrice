@@ -1,0 +1,10 @@
+#!/bin/sh
+# Asks for name of session, if none use a random string
+feed="${1:-$(printf "%s" | dmenu -p 'Name of Session?')}"
+
+if [ -z $feed ]; then
+    TEMP=$(mktemp)
+    feed=$(echo $TEMP | tr '.' ' ' | awk '{printf $2}')
+fi
+
+tmux new -s $feed && tmux attach-session -t $feed
