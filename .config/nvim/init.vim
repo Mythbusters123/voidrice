@@ -11,14 +11,16 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 Plug 'tpope/vim-surround'
 Plug 'preservim/nerdtree'
 Plug 'junegunn/goyo.vim'
-Plug 'sonph/onehalf', {'rtp': 'vim' }
+Plug 'ful1e5/onedark.nvim'
 Plug 'jreybert/vimagit'
 Plug 'Pocco81/AutoSave.nvim'
+Plug 'LunarWatcher/auto-pairs'
 Plug 'lukesmithxyz/vimling'
 Plug 'vimwiki/vimwiki'
 Plug 'neoclide/coc.nvim'
 Plug 'shougo/neopairs.vim'
-Plug 'itchyny/lightline.vim'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
 Plug 'tpope/vim-commentary'
 Plug 'gko/vim-coloresque'
 call plug#end()

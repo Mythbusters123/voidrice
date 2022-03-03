@@ -1,9 +1,9 @@
 #!/bin/bash
-# Asks for name of session, if none use default Tmux behavior 
+# Asks for name of session, if none use default Tmux behavior
 feed="${1:-$(printf "%s" | dmenu -p 'Name of Session?')}"
 
 if [ -z $feed ]; then
-    tmux new
+    st -e tmux new
 else
-    tmux new -s "$feed" && tmux attach-session -t "$feed"
+    st -e tmux new -s "$feed"
 fi

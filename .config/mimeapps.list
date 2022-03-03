@@ -15,6 +15,10 @@ x-scheme-handler/lbry=lbry.desktop
 inode/directory=file.desktop
 message/rfc822=userapp-Thunderbird-26HOH1.desktop
 x-scheme-handler/mid=userapp-Thunderbird-26HOH1.desktop
+text/html=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/about=chromium.desktop
 
 [Added Associations]
 x-scheme-handler/mailto=userapp-Thunderbird-26HOH1.desktop;

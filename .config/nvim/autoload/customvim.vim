@@ -1,6 +1,5 @@
 function! customvim#MythVim()
-  " Autosave Config
-  lua << EOF
+   lua << EOF
     local autosave = require("autosave")
 
     autosave.setup(
@@ -40,7 +39,15 @@ EOF
     set termguicolors
   endif
 
-  colorscheme onehalfdark
-  let g:lightline = { 'colorscheme': 'onehalfdark' }
+  set tabstop=4
+  set expandtab
+  set shiftwidth=4
 
+  colorscheme onedark
+
+  lua << EOF
+    require('lualine').setup {
+	    options = { theme = 'onedark' },
+    }
+EOF
 endfunction
