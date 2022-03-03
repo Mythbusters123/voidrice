@@ -38,11 +38,6 @@ EOF
     let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
     set termguicolors
   endif
-
-  set tabstop=4
-  set expandtab
-  set shiftwidth=4
-
   colorscheme onedark
 
   lua << EOF
@@ -50,4 +45,13 @@ EOF
 	    options = { theme = 'onedark' },
     }
 EOF
+
+  " Spaces > Tabs
+  set tabstop=4
+  set expandtab
+  set shiftwidth=4
+
+  " Highlight ALL the results
+  set hls
+
 endfunction
