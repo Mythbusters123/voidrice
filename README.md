@@ -7,6 +7,7 @@
 4. Different cursors cause Adwatia is kinda ugly
 5. More aliases, and more rust programs (zoxide, etc)
 6. Different fonts
+7. Ungoogled-Chromium instead of Brave-Bin
    
 ## So why not make your own dotfiles
 Im lazy.
